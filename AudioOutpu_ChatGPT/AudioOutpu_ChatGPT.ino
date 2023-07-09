@@ -6,11 +6,11 @@
 #include <ArduinoJson.h>
 #include "Audio.h"
 
-const char* ssid = "SSID";
-const char* password = "PASS";
-const char* chatgpt_token = "Your_ChatGPT_Token";
+const char* ssid = "SmS_jiofi";
+const char* password = "sms123458956";
+const char* chatgpt_token = "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";
 const char* temperature = "0";
-const char* max_tokens = "40";
+const char* max_tokens = "45";
 String Question = "";
 
 #define I2S_DOUT      25
