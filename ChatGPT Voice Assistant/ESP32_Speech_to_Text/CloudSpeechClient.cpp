@@ -97,9 +97,9 @@ const char* b= "light off";
 //Serial.println(ans);
 Serial.print(chatgpt_Q);Serial.println("-");
 ///////////////////////////////////////////////////////////
-pinMode(LED_BUILTIN,OUTPUT);
+
 if(strstr(chatgpt_Q, "light on")){
-  digitalWrite(LED_BUILTIN,HIGH);
+
   Serial.println("Light's On");
   digitalWrite(15, LOW);
 delay(1);
@@ -111,7 +111,7 @@ digitalWrite(led_2,1);
   Serial.print("To ask again");
   }
 if(strstr(chatgpt_Q, "light off")){
-  digitalWrite(LED_BUILTIN,LOW);
+
   Serial.println("Light's Off");
   digitalWrite(15, LOW);
 delay(1);
